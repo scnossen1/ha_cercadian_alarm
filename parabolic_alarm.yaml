@@ -158,11 +158,8 @@ trigger:
     at: !input alarm_start_time
 condition:
   - condition: state
-    entity_id: !input workday_sensor
+    entity_id: !input binary_sensor
     state: "on"
-  - condition: state
-    entity_id: !input person_sensor
-    state: "home"
 action:
   - action: light.turn_on
     data:
