@@ -15,7 +15,7 @@ blueprint:
                 - input_datetime
           multiple: false
     binary_sensor:
-      name: 0/1 Binary Sensor
+      name: 0️⃣/1️⃣ Binary Sensor
       description:
         Binary Sensor that is used to determine whether it should run. 
       selector:
